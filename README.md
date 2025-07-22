@@ -35,6 +35,7 @@ The following students of De La Salle University - Manila, Philippines collabora
     <tr>
       <th>Profile</th>
       <th>Author</th>
+      <th>Contributions</th>
     </tr>
   </thead>
   <tbody>
@@ -47,6 +48,14 @@ The following students of De La Salle University - Manila, Philippines collabora
         <br />
         <a href="https://github.com/qu1r0ra">@qu1r0ra</a>
       </td>
+      <td>
+        <ul>
+          <li>Created and maintained the GitHub repository.</li>
+          <li>Wrote the README.</li>
+          <li>Wrote the C code.</li>
+          <li>Wrote skeletal x86 code.</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td align="center">
@@ -56,6 +65,11 @@ The following students of De La Salle University - Manila, Philippines collabora
         <strong>Brent Jan Soan</strong>  
         <br />
         <a href="https://github.com/brent-soan">@brent-soan</a>
+      </td>
+      <td>
+        <ul>
+          <li></li>
+        </ul>
       </td>
     </tr>
   </tbody>
