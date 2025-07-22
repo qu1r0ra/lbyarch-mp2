@@ -1,0 +1,10 @@
+# Notes:
+# - These commands are for Windows CMD.
+# - You could also run `make run` instead if your system has `make` installed.
+
+mkdir build
+mkdir bin
+nasm -f win64 src/asmfile.asm -o build/asmfile.obj
+gcc -c src/cfile.c -o build/cfile.obj -m64
+gcc build/cfile.obj build/asmfile.obj -o bin/a.exe -m64
+bin\a.exe
