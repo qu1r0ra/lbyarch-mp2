@@ -9,6 +9,7 @@ void run_manual_input_mode();
 int read_int(const char *prompt);
 void read_img_float_rep(int imgHeight, int imgWidth, float *imgFloatRep);
 float read_float(const char *prompt);
+void print_img_float_rep(int imgHeight, int imgWidth, float *imgFloatRep);
 void print_img_int_rep(int imgHeight, int imgWidth, int *imgIntRep);
 
 extern void imgCvtGrayFloatToInt(int imgHeight, int imgWidth, float *imgFloatRep, int *imgIntRep);
@@ -93,6 +94,8 @@ void run_manual_input_mode() {
     int *imgIntRep = safer_malloc(imgHeight * imgWidth * sizeof(int));
 
     read_img_float_rep(imgHeight, imgWidth, imgFloatRep);
+    print_img_float_rep(imgHeight, imgWidth, imgFloatRep);
+
     imgCvtGrayFloatToInt(imgHeight, imgWidth, imgFloatRep, imgIntRep);
     print_img_int_rep(imgHeight, imgWidth, imgIntRep);
 
@@ -125,6 +128,17 @@ float read_float(const char *prompt) {
     printf("%s", prompt);
     scanf("%f", &n);
     return n;
+}
+
+void print_img_float_rep(int imgHeight, int imgWidth, float *imgFloatRep) {
+    printf("Image's float representation:\n");
+    for (int i = 0; i < imgHeight; i++) {
+        for (int j = 0; j < imgWidth; j++) {
+            printf("%f ", imgFloatRep[i * imgWidth + j]);
+        }
+        printf("\n");
+    }
+    printf("\n");
 }
 
 void print_img_int_rep(int imgHeight, int imgWidth, int *imgIntRep) {
