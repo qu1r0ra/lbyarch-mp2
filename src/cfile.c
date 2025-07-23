@@ -63,8 +63,8 @@ void run_performance_test_mode() {
         free(imgIntRep);
 
         double avg_seconds_elapsed = total_seconds_elapsed / numRuns;
-        printf("Average time taken to convert a %d x %d image over %d runs: ", imgHeight, imgWidth, numRuns);
-        printf("\033[1;32m%f seconds\033[0m\n\n", avg_seconds_elapsed);
+        printf("Average time taken to convert a %dx%d pixel image over %d runs: ", imgHeight, imgWidth, numRuns);
+        printf("\033[1;32m%.15f seconds\033[0m\n\n", avg_seconds_elapsed);
     }
 
     return;
@@ -134,7 +134,7 @@ void print_img_float_rep(int imgHeight, int imgWidth, float *imgFloatRep) {
     printf("Image's float representation:\n");
     for (int i = 0; i < imgHeight; i++) {
         for (int j = 0; j < imgWidth; j++) {
-            printf("%f ", imgFloatRep[i * imgWidth + j]);
+            printf("%-6.2f", imgFloatRep[i * imgWidth + j]);
         }
         printf("\n");
     }
@@ -145,7 +145,7 @@ void print_img_int_rep(int imgHeight, int imgWidth, int *imgIntRep) {
     printf("Image's integer representation:\n");
     for (int i = 0; i < imgHeight; i++) {
         for (int j = 0; j < imgWidth; j++) {
-            printf("%d ", imgIntRep[i * imgWidth + j]);
+            printf("%-6d", imgIntRep[i * imgWidth + j]);
         }
         printf("\n");
     }
