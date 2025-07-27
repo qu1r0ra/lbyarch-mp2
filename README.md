@@ -1,6 +1,6 @@
 # lbyarch-mp2 <!-- omit from toc -->
 
-A C program that interfaces with x86 to convert a float-based representation of greyscale images into an integer-based representation.
+A C program that interfaces with x86 to convert a float-based representation of grayscale images into an integer-based representation.
 
 Created for LBYARCH (Introduction to Computer Organization and Architecture Laboratory).
 
