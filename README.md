@@ -8,25 +8,25 @@ Created for LBYARCH (Introduction to Computer Organization and Architecture Labo
 
 ## Table of Contents <!-- omit from toc -->
 
-- [1. How to Build and Run](#1-how-to-build-and-run)
-- [2. Sample Run and Performance Analysis](#2-sample-run-and-performance-analysis)
-- [3. Authors](#3-authors)
+- [How to Build and Run](#how-to-build-and-run)
+- [Sample Run and Performance Analysis](#sample-run-and-performance-analysis)
+- [Authors](#authors)
 
 ---
 
-## 1. How to Build and Run
+## How to Build and Run
 
 >write stuff
 
 ---
 
-## 2. Sample Run and Performance Analysis
+## Sample Run and Performance Analysis
 
 >write stuff
 
 ---
 
-## 3. Authors
+## Authors
 
 The following students of De La Salle University - Manila, Philippines collaborated on this project:
 
