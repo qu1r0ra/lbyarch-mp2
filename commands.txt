@@ -5,6 +5,6 @@
 mkdir build
 mkdir bin
 nasm -f win64 src/asmfile.asm -o build/asmfile.obj
-gcc -c src/cfile.c -o build/cfile.obj -m64
+gcc -c src/cfile.c -o build/cfile.obj -m64 -std=c99
 gcc build/cfile.obj build/asmfile.obj -o bin/a.exe -m64
 bin\a.exe
