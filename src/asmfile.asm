@@ -10,7 +10,7 @@ global imgCvtGrayFloatToInt
 ; rdx   : int imgWidth          (width of the image in pixels)
 ; r8    : float *imgFloatRep    (pointer to an array of the image's float representation)
 ; r9    : int *imgIntRep        (pointer to an array of the image's int representation)
-imgCvtGrayFloatToInt: ; TODO: Implement the function
+imgCvtGrayFloatToInt:
     imul rcx, rdx
 
     L1: 
