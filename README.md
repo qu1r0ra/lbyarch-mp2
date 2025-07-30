@@ -107,10 +107,9 @@ The following students of De La Salle University - Manila, Philippines collabora
       </td>
       <td>
         <ul>
-          <li>Created and maintained the GitHub repository.</li>
-          <li>Wrote the README.</li>
           <li>Wrote the C code.</li>
           <li>Wrote skeletal x86 code.</li>
+          <li>Wrote the README.</li>
         </ul>
       </td>
     </tr>
